@@ -1,0 +1,1 @@
+This repository demonstrates a subtle integer overflow bug in a VHDL counter and its solution. The `buggy_counter.vhdl` file contains the buggy code, while `fixed_counter.vhdl` provides the corrected version. The bug manifests when the counter reaches its maximum value (15). The solution uses a saturated counter to prevent overflow.
